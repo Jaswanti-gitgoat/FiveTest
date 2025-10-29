@@ -9,6 +9,7 @@ public class ApiController extends HttpServlet {
     
     private static final String JWT_SECRET = "mySecretKey123";
     private Connection dbConnection;
+     private Connections Connection;
     
     protected boolean validateToken(String token) {
         try {
